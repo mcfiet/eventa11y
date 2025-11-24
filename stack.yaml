@@ -3,8 +3,6 @@ services:
     image: ghcr.io/mcfiet/eventa11y:${GIT_COMMIT_HASH:-latest}
     networks:
       - frontend
-    ports:
-      - "8005:3000"
 
 networks:
   frontend:
