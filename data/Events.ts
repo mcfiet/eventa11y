@@ -311,8 +311,8 @@ export const events: Event[] = [
     longDescription:
       "Traditioneller Weihnachtsmarkt mit Kunsthandwerk und Glühwein.",
     shortDescription: "Wintermarkt in Lübeck",
-    startDate: new Date("2025-12-25T11:00:00Z"),
-    endDate: new Date("2025-12-26T20:00:00Z"),
+    startDate: new Date("2026-04-02T11:00:00Z"),
+    endDate: new Date("2026-04-03T20:00:00Z"),
     location: {
       name: "Historische Altstadt",
       address: {
@@ -332,8 +332,8 @@ export const events: Event[] = [
     title: "Vintage Film Festival",
     longDescription: "Klassische Filme und Retrokino in historischer Kulisse.",
     shortDescription: "Kino-Festival in Weimar",
-    startDate: new Date("2025-12-18T15:00:00Z"),
-    endDate: new Date("2025-12-20T23:00:00Z"),
+    startDate: new Date("2026-04-18T15:00:00Z"),
+    endDate: new Date("2026-04-20T23:00:00Z"),
     location: {
       name: "Kino Mon Ami",
       address: {

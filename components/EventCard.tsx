@@ -15,6 +15,25 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 import MusicNote from "@mui/icons-material/MusicNote";
 import { useTheme } from "@mui/material/styles";
 
+const LOCALE = "de-DE";
+const TIME_ZONE = "Europe/Berlin";
+
+const dayFormatter = new Intl.DateTimeFormat(LOCALE, {
+  timeZone: TIME_ZONE,
+  day: "numeric",
+});
+
+const monthFormatter = new Intl.DateTimeFormat(LOCALE, {
+  timeZone: TIME_ZONE,
+  month: "short",
+});
+
+const timeFormatter = new Intl.DateTimeFormat(LOCALE, {
+  timeZone: TIME_ZONE,
+  hour: "2-digit",
+  minute: "2-digit",
+});
+
 type EventCardProps = {
   id: string;
   title: string;
@@ -36,15 +55,10 @@ export default function EventCard({
 }: EventCardProps) {
   const theme = useTheme();
 
-  const dateObj = new Date(startDate);
-  const day = dateObj.getDate();
-  const month = dateObj
-    .toLocaleString("default", { month: "short" })
-    .toUpperCase();
-  const time = dateObj.toLocaleTimeString("de-DE", {
-    hour: "2-digit",
-    minute: "2-digit",
-  });
+  const eventDate = new Date(startDate);
+  const day = dayFormatter.format(eventDate);
+  const month = monthFormatter.format(eventDate).toUpperCase();
+  const time = timeFormatter.format(eventDate);
   return (
     <Card
       elevation={0}
