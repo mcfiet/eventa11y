@@ -7,8 +7,8 @@ export const events: Event[] = [
     longDescription:
       "Eine der größten Technologiekonferenzen Europas mit Top-Speakern aus der Branche. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea et gubergren, kasd magna no rebum. sanctus sea sed takimata ut vero voluptua. est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam",
     shortDescription: "Technologie-Konferenz in Berlin",
-    startDate: new Date("2025-09-15T09:00:00Z"),
-    endDate: new Date("2025-09-17T17:00:00Z"),
+    startDate: new Date("2025-12-15T09:00:00Z"),
+    endDate: new Date("2025-12-17T17:00:00Z"),
     location: {
       name: "Berlin ExpoCenter",
       address: {
@@ -29,8 +29,8 @@ export const events: Event[] = [
     longDescription:
       "Ein Abend voller Jazzmusik mit internationalen Künstlern.",
     shortDescription: "Jazzkonzert in Köln",
-    startDate: new Date("2025-08-22T19:00:00Z"),
-    endDate: new Date("2025-08-22T23:00:00Z"),
+    startDate: new Date("2025-11-25T19:00:00Z"),
+    endDate: new Date("2025-11-25T23:00:00Z"),
     location: {
       name: "Kölner Philharmonie",
       address: {
@@ -51,8 +51,8 @@ export const events: Event[] = [
     longDescription:
       "Ein 48-Stunden-Event für Entwickler, Designer und Kreative.",
     shortDescription: "Game Jam in Hamburg",
-    startDate: new Date("2025-10-03T18:00:00Z"),
-    endDate: new Date("2025-10-05T18:00:00Z"),
+    startDate: new Date("2025-12-03T18:00:00Z"),
+    endDate: new Date("2025-12-05T18:00:00Z"),
     location: {
       name: "betahaus Hamburg",
       address: {
@@ -72,8 +72,8 @@ export const events: Event[] = [
     title: "Startup Pitch München",
     longDescription: "Junge Startups präsentieren ihre Ideen vor Investoren.",
     shortDescription: "Startup-Event in München",
-    startDate: new Date("2025-09-10T10:00:00Z"),
-    endDate: new Date("2025-09-10T17:00:00Z"),
+    startDate: new Date("2025-12-10T10:00:00Z"),
+    endDate: new Date("2025-12-10T17:00:00Z"),
     location: {
       name: "WERK1 München",
       address: {
@@ -95,8 +95,8 @@ export const events: Event[] = [
     longDescription:
       "Große Buchmesse mit Lesungen, Workshops und Neuerscheinungen.",
     shortDescription: "Literaturmesse in Leipzig",
-    startDate: new Date("2025-11-01T10:00:00Z"),
-    endDate: new Date("2025-11-03T18:00:00Z"),
+    startDate: new Date("2025-12-01T10:00:00Z"),
+    endDate: new Date("2025-12-03T18:00:00Z"),
     location: {
       name: "Messe Leipzig",
       address: {
@@ -117,8 +117,8 @@ export const events: Event[] = [
     longDescription:
       "Zukunft der digitalen Gesundheit mit Vorträgen und Panels.",
     shortDescription: "Konferenz zu E-Health",
-    startDate: new Date("2025-07-20T09:00:00Z"),
-    endDate: new Date("2025-07-21T17:00:00Z"),
+    startDate: new Date("2025-12-20T09:00:00Z"),
+    endDate: new Date("2025-12-21T17:00:00Z"),
     location: {
       name: "Charité Berlin",
       address: {
@@ -138,8 +138,8 @@ export const events: Event[] = [
     title: "AI Summit Stuttgart",
     longDescription: "Fokus auf KI-Lösungen in Industrie und Alltag.",
     shortDescription: "KI-Event in Stuttgart",
-    startDate: new Date("2025-10-12T08:00:00Z"),
-    endDate: new Date("2025-10-13T17:00:00Z"),
+    startDate: new Date("2025-12-12T08:00:00Z"),
+    endDate: new Date("2025-12-13T17:00:00Z"),
     location: {
       name: "Haus der Wirtschaft",
       address: {
@@ -159,8 +159,8 @@ export const events: Event[] = [
     title: "Kunstnacht Düsseldorf",
     longDescription: "Offene Galerien und Live-Performances in der Innenstadt.",
     shortDescription: "Kunstfestival in Düsseldorf",
-    startDate: new Date("2025-09-28T18:00:00Z"),
-    endDate: new Date("2025-09-28T23:59:00Z"),
+    startDate: new Date("2025-11-28T18:00:00Z"),
+    endDate: new Date("2025-11-28T23:59:00Z"),
     location: {
       name: "Altstadt Düsseldorf",
       address: {
@@ -181,8 +181,8 @@ export const events: Event[] = [
     longDescription:
       "Community-Event rund um Open-Source-Projekte mit Talks und Hackspaces.",
     shortDescription: "Open-Source-Event in Nürnberg",
-    startDate: new Date("2025-08-10T09:00:00Z"),
-    endDate: new Date("2025-08-10T18:00:00Z"),
+    startDate: new Date("2025-12-10T09:00:00Z"),
+    endDate: new Date("2025-12-10T18:00:00Z"),
     location: {
       name: "Z-Bau Nürnberg",
       address: {
@@ -203,8 +203,8 @@ export const events: Event[] = [
     longDescription:
       "Kunsthandwerk, Malerei und Design auf dem Augustinerplatz.",
     shortDescription: "Open-Air Kunstmarkt",
-    startDate: new Date("2025-08-31T10:00:00Z"),
-    endDate: new Date("2025-08-31T19:00:00Z"),
+    startDate: new Date("2025-11-31T10:00:00Z"),
+    endDate: new Date("2025-11-31T19:00:00Z"),
     location: {
       name: "Augustinerplatz",
       address: {
@@ -225,8 +225,8 @@ export const events: Event[] = [
     longDescription:
       "Mobilitätskonzepte von morgen mit Testfahrten und Vorträgen.",
     shortDescription: "Mobilitätsmesse in Hannover",
-    startDate: new Date("2025-10-05T10:00:00Z"),
-    endDate: new Date("2025-10-07T18:00:00Z"),
+    startDate: new Date("2025-12-05T10:00:00Z"),
+    endDate: new Date("2025-12-07T18:00:00Z"),
     location: {
       name: "Messegelände Hannover",
       address: {
@@ -246,8 +246,8 @@ export const events: Event[] = [
     title: "Streetfood Festival Bonn",
     longDescription: "Foodtrucks, Musik und Genuss auf dem Münsterplatz.",
     shortDescription: "Kulinarisches Event in Bonn",
-    startDate: new Date("2025-08-24T12:00:00Z"),
-    endDate: new Date("2025-08-24T22:00:00Z"),
+    startDate: new Date("2025-12-24T12:00:00Z"),
+    endDate: new Date("2025-12-24T22:00:00Z"),
     location: {
       name: "Münsterplatz",
       address: {
@@ -268,8 +268,8 @@ export const events: Event[] = [
     longDescription:
       "Fotografie-Ausstellungen und Workshops mit internationalen Fotografen.",
     shortDescription: "Fotografie-Event in Mannheim",
-    startDate: new Date("2025-11-10T10:00:00Z"),
-    endDate: new Date("2025-11-12T18:00:00Z"),
+    startDate: new Date("2025-12-10T10:00:00Z"),
+    endDate: new Date("2025-12-12T18:00:00Z"),
     location: {
       name: "Kunsthalle Mannheim",
       address: {
@@ -289,8 +289,8 @@ export const events: Event[] = [
     title: "GreenTech Days",
     longDescription: "Nachhaltigkeit und grüne Technologien im Fokus.",
     shortDescription: "Nachhaltigkeitskonferenz",
-    startDate: new Date("2025-09-05T09:00:00Z"),
-    endDate: new Date("2025-09-06T17:00:00Z"),
+    startDate: new Date("2025-12-05T09:00:00Z"),
+    endDate: new Date("2025-12-06T17:00:00Z"),
     location: {
       name: "Umweltforum Berlin",
       address: {
@@ -311,8 +311,8 @@ export const events: Event[] = [
     longDescription:
       "Traditioneller Weihnachtsmarkt mit Kunsthandwerk und Glühwein.",
     shortDescription: "Wintermarkt in Lübeck",
-    startDate: new Date("2025-11-25T11:00:00Z"),
-    endDate: new Date("2025-12-24T20:00:00Z"),
+    startDate: new Date("2025-12-25T11:00:00Z"),
+    endDate: new Date("2025-12-26T20:00:00Z"),
     location: {
       name: "Historische Altstadt",
       address: {
@@ -332,8 +332,8 @@ export const events: Event[] = [
     title: "Vintage Film Festival",
     longDescription: "Klassische Filme und Retrokino in historischer Kulisse.",
     shortDescription: "Kino-Festival in Weimar",
-    startDate: new Date("2025-10-18T15:00:00Z"),
-    endDate: new Date("2025-10-20T23:00:00Z"),
+    startDate: new Date("2025-12-18T15:00:00Z"),
+    endDate: new Date("2025-12-20T23:00:00Z"),
     location: {
       name: "Kino Mon Ami",
       address: {
