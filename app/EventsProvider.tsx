@@ -18,7 +18,7 @@ interface EventsContextType {
 const EventsContext = createContext<EventsContextType | undefined>(undefined);
 
 const STORAGE_KEY = "events";
-const EVENTS_DATA_VERSION = "2024-12-initial";
+const EVENTS_DATA_VERSION = "2025-11-update";
 
 type StoredEvent = Omit<Event, "startDate" | "endDate"> & {
   startDate: string;
